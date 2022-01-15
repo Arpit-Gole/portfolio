@@ -1,11 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import About from './Components/About';
+import Achievement from './Components/Achievement';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import NavBar from './Components/NavBar';
+import Portfolio from './Components/Portfolio';
+import Qualifications from './Components/Qualification';
+import Skills from './Components/Skills';
 
 function App() {
   return (
-    <div className="App">
-      Arpit GOle
-    </div>
+    <>
+      <NavBar />
+      <Home />
+      <About />
+      <Qualifications />
+      <Skills />
+      <Achievement />
+      <Portfolio />
+      <Footer />
+    </>
   );
 }
 
