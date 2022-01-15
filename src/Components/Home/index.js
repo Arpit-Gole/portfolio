@@ -38,15 +38,15 @@ function Home() {
                             <Typical
                                 loop={Infinity}
                                 steps={[
-                                    'Frontend Developer',
+                                    'Artificial Intelligence Developer',
                                     1000,
-                                    'SDE - Intern',
+                                    'Reinforcement Learning',
                                     1000
                                 ]}
                             />
                         </h3>
                         <p className="home__description">
-                            Experience in web application development and producing quality work by
+                            Experience in web ap development and producing quality work by
                             combining my knowledge on Frontend Development.
                         </p>
                         <a download="" href={pdf} className="button button--flex">
