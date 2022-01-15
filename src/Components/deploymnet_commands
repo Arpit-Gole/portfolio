@@ -1,0 +1,5 @@
+1. git status
+2. git add . (If adding new file)
+3. git commit -a -m ""
+4. git push origin master
+5. npm run deploy
