@@ -9,8 +9,8 @@ import { qualifications } from '../Constants/constant'
 
 function Qualifications() {
 
-    const [education, setEducation] = useState(true)
-    const [work, setWork] = useState(false)
+    const [education, setEducation] = useState(false)
+    const [work, setWork] = useState(true) /*Making work as default*/
     const [modalProp, setModalProp] = useState(false)
     const [childrenElement, setChildrenElement] = useState();
 
@@ -36,11 +36,18 @@ function Qualifications() {
 
     const renderModal = (type) => {
         switch (type) {
+            case "MASTERS":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Master of Machine Learning"
+                    qualifications={qualifications[0].MASTERS}
+                />;
             case "BE":
                 return <Modal
                     showModal={true}
                     handleClose={handleClose}
-                    title="B.E in Information Science"
+                    title="B.E in Computer Science"
                     qualifications={qualifications[0].BE}
                 />;
             case "HSC":
@@ -75,47 +82,56 @@ function Qualifications() {
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div className={`qualification__button button--flex ${education ? "qualification__button_active " : ""}`} onClick={educationHandler}>
-                        <div className="qualification__icon">
-                            <FaUserGraduate />
-                        </div>
-                        Education
-                    </div>
-
                     <div className={`qualification__button button--flex ${work ? "qualification__button_active " : ""}`} onClick={workHandler}>
                         <div className="qualification__icon">
                             <BsBriefcase />
                         </div>
                         Work
                     </div>
+
+                    <div className={`qualification__button button--flex ${education ? "qualification__button_active " : ""}`} onClick={educationHandler}>
+                        <div className="qualification__icon">
+                            <FaUserGraduate />
+                        </div>
+                        Education
+                    </div>
+                    
                 </div>
 
                 <div className="qualification__sections">
                     <div className={`qualification__content ${education ? "qualification__active" : "qualification__inactive"}`} >
                         <QualificationLeft
-                            title="B.E in Information Science"
-                            subTitle="Atria Institute of Technology"
+                            title="Master of Machine Learning"
+                            subTitle="The University of Adelaide"
                             time="Present"
                             handleModal={handleModal}
-                            type="BE"
-                            place="Bengaluru"
+                            type="MASTERS"
+                            place="Adelaide, Australia"
                         />
                         <QualificationRight
-                            title="Intermediate"
-                            subTitle="Kendriya Vidyalaya No.1"
-                            time="2015-2016"
+                            title="B.E in Computer Science"
+                            subTitle="Atria Institute of Technology"
+                            time="2014-2018"
                             handleModal={handleModal}
-                            type="HSC"
-                            place="Bengaluru"
+                            type="BE"
+                            place="Bengaluru, India"
                         />
                         <QualificationLeft
+                            title="Intermediate"
+                            subTitle="Kendriya Vidyalaya No.2"
+                            time="2013-2014"
+                            handleModal={handleModal}
+                            type="HSC"
+                            place="Bengaluru, India"
+                        />
+                        <QualificationRight
                             title="Matriculation"
-                            subTitle="Kendriya Vidyalaya No.1"
-                            time="2017-2018"
+                            subTitle="Kendriya Vidyalaya No.2"
+                            time="2011-2012"
                             handleModal={handleModal}
                             type="SSC"
-                            place="Bengaluru"
-                            last
+                            place="Bengaluru, India"
+                            last /*To Mark the last entry*/
                         />
                     </div>
 

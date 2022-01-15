@@ -8,9 +8,31 @@ function Skills() {
     return (
         <div className="skills section" id='skills'>
             <h2 className="section__title">Skills</h2>
-            <span className="section__subtitle">My technical expertise</span>
+            <span className="section__subtitle">The extent of my technical expertise.</span>
 
             <div className="skills__container container grid">
+
+                <div className="skills__content">
+                    <div className="skills__header">
+                        <div className="skills__icon">
+                            <BsBraces />
+                        </div>
+
+                        <div>
+                            <h1 className="skills__title">Programming Mastery</h1>
+                            <span className="skills__subtitle">
+                                Programming Languages, Data Structures <br/> 
+                                and Design Principles.</span>
+                        </div>
+                    </div>
+                    <div className="skills__list grid">
+                        <SkillsBar name="Python" number="4" classPercentage="skills__eighty" />
+                        <SkillsBar name="C#" number="4" classPercentage="skills__eighty" />
+                        <SkillsBar name="JavaScript" number="3.5" classPercentage="skills__seventy" />
+                        <SkillsBar name="C and C++" number="3.5" classPercentage="skills__seventy" />
+                        <SkillsBar name="Domain Driven Development" number="4" classPercentage="skills__eighty" />
+                    </div>
+                </div>
 
                 <div className="skills__content">
                     <div className="skills__header">
@@ -39,7 +61,8 @@ function Skills() {
 
                         <div>
                             <h1 className="skills__title">Languages</h1>
-                            <span className="skills__subtitle">More than 1 years</span>
+                            <span className="skills__subtitle">
+                                Programming Languages, Data Structures and Design Principles</span>
                         </div>
                     </div>
                     <div className="skills__list grid">
@@ -47,6 +70,7 @@ function Skills() {
                         <SkillsBar name="Data Structures and Algorithms" number="4" classPercentage="skills__eighty" />
                     </div>
                 </div>
+
             </div>
         </div >
 

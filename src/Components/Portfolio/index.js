@@ -14,7 +14,7 @@ function Portfolio() {
     return (
         <section className="portfolio section" id='portfolio'>
             <h2 className="section__title">Portfolio</h2>
-            <span className="section__subtitle">Take a look at my recent work.</span>
+            <span className="section__subtitle">A glance at the recent work of my endeavours to learn something new.</span>
 
             <div className="portfolio__container container grid">
                 <Card type={<GiWorld />} title="Devic Earth" about="Developed Admin and User portals for Devic Earth. A project which focus on Air Pollution Controlling." link="https://www.devic-earth.com/" />

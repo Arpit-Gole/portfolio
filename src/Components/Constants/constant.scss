@@ -127,9 +127,12 @@ $Z-Modal: 1000;
   }
 
   .about__container,
-  .skills__container,
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skills__container{
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .qualification__sections {
