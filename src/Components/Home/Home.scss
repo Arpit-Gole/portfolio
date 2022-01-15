@@ -1,0 +1,70 @@
+@import "../Constants/constant.scss";
+@import "../Constants/reUsable.scss";
+
+// .home {
+//   background-image: url("../../Image/arpit gole.png");
+//   background-size: 100% 100%;
+//   background-color: #f0f5f5;
+// }
+
+.home__container {
+  gap: 1rem;
+}
+
+.home__content {
+  grid-template-columns: 0.5fr auto;
+  padding-top: 3.5rem;
+  align-items: center;
+}
+
+.home__social {
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
+}
+
+.home__social-icon {
+  font-size: 1.5rem;
+  color: $first-color;
+}
+
+.home__social-icon:hover {
+  color: $first-color-second;
+}
+
+.home__blob {
+  width: 100%;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.home__blob-img {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+  // border-radius: 25px;
+}
+
+.home__data {
+  grid-column: 1/3;
+}
+
+.home__title {
+  color: #000;
+  font-size: $big-font-size;
+}
+
+.home__subtitle {
+  font-size: $h3-font-size;
+  // color: $text-color;
+  color: #000;
+  font-weight: $font-medium;
+  margin-bottom: $mb-0-75;
+}
+
+.home__description {
+  color: #000;
+  margin-bottom: $mb-2;
+}

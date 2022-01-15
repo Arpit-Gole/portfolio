@@ -1,0 +1,46 @@
+@import "../Constants/constant.scss";
+
+// .footer {
+//   padding-top: 2rem;
+// }
+
+.footer__container {
+  row-gap: 3.5rem;
+}
+
+.footer__bg {
+  background-color: $first-color-second;
+  padding: 2rem 2rem 3rem 2rem;
+}
+
+.footer__title {
+  font-size: $h1-font-size;
+  // margin-bottom: $mb-0-25;
+}
+
+.footer__subtitle {
+  font-size: $small-font-size;
+}
+
+.footer__social {
+  font-size: 1.25rem;
+  margin-right: $mb-1-5;
+}
+
+.footer__social:hover {
+  color: $first-color-lighter;
+}
+
+.footer__copy {
+  font-size: $smaller-font-size;
+  text-align: center;
+  color: #fff;
+  margin-top: $mb-3;
+}
+
+.footer__title,
+.footer__subtitle,
+.footer__link,
+.footer__social {
+  color: #fff;
+}

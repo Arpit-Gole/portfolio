@@ -1,0 +1,316 @@
+/*
+* These are common COLORS
+*/
+// $huecolor: 250;
+$first-color: hsl(250, 69%, 61%);
+$first-color-second: hsl(250, 69%, 61%);
+$first-color-alt: hsl(250, 57%, 53%);
+$first-color-lighter: hsl(250, 92%, 85%);
+$title-color: hsl(250, 8%, 15%);
+$text-color: hsl(250, 8%, 45%);
+$text-color-light: hsl(250, 8%, 65%);
+$input-color: hsl(250, 70%, 96%);
+$body-color: hsl(250, 60%, 99%);
+$container-color: #fff;
+
+/*
+* These are common HEIGHT
+*/
+$headerHeight: 3rem;
+
+/*
+* These are common FONTS_SMALL_SCREEN
+*/
+$big-font-size: 2rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1.125rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+$font-medium: 500;
+$font-semi-bold: 600;
+
+/*
+* These are common FONTS_LARGEL_SCREEN
+*/
+$big-font-size: 3rem;
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$normal-font-size: 1rem;
+$small-font-size: 0.875rem;
+$smaller-font-size: 0.813rem;
+
+/*
+* These are common MARGENES
+*/
+$mb-0-25: 0.25rem;
+$mb-0-5: 0.5rem;
+$mb-0-75: 0.75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+$mb-3: 3rem;
+
+/*
+* These are common Z_INDEX
+*/
+$Z-Fixed: 100;
+$Z-Modal: 1000;
+/*
+* These are common FontSize for large screens
+*/
+
+@media screen and (max-width: 350px) {
+  $big-font-size: 3rem;
+  $h1-font-size: 2.25rem;
+  $h2-font-size: 1.5rem;
+  $h3-font-size: 1.25rem;
+  $normal-font-size: 1rem;
+  $small-font-size: 0.875rem;
+  $smaller-font-size: 0.813rem;
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    margin-left: $mb-1;
+    margin-right: $mb-1;
+  }
+
+  .nav__menu {
+    padding: 2rem 0.25rem 4rem;
+  }
+
+  .nav__list {
+    column-gap: 0;
+  }
+
+  .home__content {
+    grid-template-columns: 0.25fr 3fr;
+  }
+
+  .home__blob {
+    width: 180px;
+  }
+
+  .skills__title {
+    font-size: $normal-font-size;
+  }
+
+  .qualification__data {
+    gap: 0.5rem;
+  }
+
+  .portfolio__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .achievement__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .home__content {
+    grid-template-columns: max-content 1fr 1fr;
+  }
+  .home__data {
+    grid-column: initial;
+  }
+  .home__img {
+    order: 1;
+    justify-self: center;
+  }
+
+  .about__container,
+  .skills__container,
+  .footer__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .qualification__sections {
+    display: grid;
+    grid-template-columns: 0.6fr;
+    justify-content: center;
+  }
+
+  .portfolio__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .portfolio__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .achievement__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__img1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .section {
+    padding: 4rem 0 4rem;
+  }
+  .section__subtitle {
+    margin-bottom: 4rem;
+  }
+
+  .header {
+    top: 0;
+    bottom: initial;
+  }
+  .header,
+  .main,
+  .footer__container {
+    padding: 0 1rem;
+  }
+
+  .nav {
+    height: 5rem;
+    column-gap: 1rem;
+  }
+  .nav__icon,
+  .nav__close,
+  .nav__toggle {
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 2rem;
+  }
+  .nav__menu {
+    margin-left: auto;
+  }
+
+  .home {
+    background-image: url("../../Image/arpit gole.png");
+    background-size: 100% 100%;
+    background-color: #f0f5f5;
+  }
+
+  .home__img {
+    display: none;
+  }
+
+  .about__img {
+    display: none;
+  }
+
+  .home__container {
+    row-gap: 5rem;
+  }
+  .home__content {
+    grid-template-columns: max-content 1fr 1fr;
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+  }
+  .home__blob {
+    width: 270px;
+  }
+
+  .about__container {
+    column-gap: 5rem;
+  }
+  .about__img1 {
+    width: 350px;
+  }
+  .about__description {
+    text-align: initial;
+  }
+  .about__info {
+    justify-content: space-around;
+  }
+  .about__buttons {
+    justify-content: initial;
+  }
+
+  .qualification__tabs {
+    justify-content: center;
+  }
+  .qualification__button {
+    margin: 0 $mb-1;
+  }
+  .qualification__sections {
+    grid-template-columns: 0.5fr;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+    // display: flex;
+    // justify-content: center;
+    // flex-direction: column;
+    // align-items: center;
+  }
+
+  .footer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .footer__bg {
+    padding: 3rem 2rem 3.5rem;
+  }
+  // .footer__socials {
+  //   justify-self: flex-end;
+  // }
+  .footer__copy {
+    margin-top: $mb-3;
+  }
+
+  .portfolio__container {
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    max-width: 968px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header,
+  .main,
+  .footer__container {
+    padding: 0;
+  }
+
+  .home__blob {
+    width: 320px;
+  }
+}

@@ -1,0 +1,62 @@
+@import "../Constants/constant.scss";
+@import "../Constants/reUsable.scss";
+
+.about {
+  background-color: #f0f5f5;
+}
+
+.about__img,
+.about_img1 {
+  width: 200px;
+  border-radius: 0.5rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.about__description {
+  text-align: center;
+  margin-bottom: $mb-0-25;
+}
+
+.about__info {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: $mb-2-5;
+}
+
+.about__info-title {
+  font-size: $h2-font-size;
+  font-weight: $font-semi-bold;
+  color: $title-color;
+}
+
+.about__info-name {
+  font-size: $smaller-font-size;
+}
+
+.about__info-title,
+.about__info-name,
+.contact__me-title,
+.contact__me-name {
+  display: block;
+  text-align: center;
+}
+
+.about__buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.contact__me {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 210px;
+}
+
+.contact__me-title {
+  font-size: $h3-font-size;
+  font-weight: $font-medium;
+  color: $title-color;
+}
