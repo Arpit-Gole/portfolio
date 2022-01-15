@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/portfolio/static/js/main.d1d470ca.js",
-    "static/js/787.86e70ff7.chunk.js": "/portfolio/static/js/787.86e70ff7.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/portfolio/static/css/main.45c014bc.css",
+    "main.js": "/portfolio/static/js/main.ac75df1f.js",
+    "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.f250ecb77e8ce86b7e93.png",
+    "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.bba4dc5a4da69cd8dac4.png",
+    "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.978571787d4216a75671.pdf",
     "index.html": "/portfolio/index.html",
-    "main.073c9b0a.css.map": "/portfolio/static/css/main.073c9b0a.css.map",
-    "main.d1d470ca.js.map": "/portfolio/static/js/main.d1d470ca.js.map",
-    "787.86e70ff7.chunk.js.map": "/portfolio/static/js/787.86e70ff7.chunk.js.map"
+    "main.45c014bc.css.map": "/portfolio/static/css/main.45c014bc.css.map",
+    "main.ac75df1f.js.map": "/portfolio/static/js/main.ac75df1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.d1d470ca.js"
+    "static/css/main.45c014bc.css",
+    "static/js/main.ac75df1f.js"
   ]
 }
