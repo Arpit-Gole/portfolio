@@ -3,7 +3,7 @@ import { BsCalendar } from 'react-icons/bs'
 import { BiRightArrowAlt } from 'react-icons/bi'
 
 function QualificationRight(props) {
-    const { title, subTitle, time, handleModal, type, last, place } = props
+    const { title, subTitle, subTitleLink, time, handleModal, type, last, place } = props
     return (
         <div className="qualification__data">
             <div></div>
@@ -15,7 +15,9 @@ function QualificationRight(props) {
 
             <div>
                 <h3 className="qualification__title">{title}</h3>
-                <span className="qualification__subtitle">{subTitle}</span>
+                <a href= {subTitleLink} rel="noreferrer" target="_blank" className='button--link subTitleLink_button'>
+                    <span className="qualification__subtitle">{subTitle}</span>
+                </a><br/>
                 <span className="qualification__place">{place}</span>
                 <div className="qualification__calendar">
                     <BsCalendar />

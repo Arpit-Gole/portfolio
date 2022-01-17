@@ -14,10 +14,10 @@ function Home() {
             <div className="home__container container grid">
                 <div className="home__content grid">
                     <div className="home__social">
-                        <a href="https://www.linkedin.com/in/akshaygole/" rel="noreferrer" target="_blank" className="home__social-icon">
+                        <a href="https://www.linkedin.com/in/connectarpitgole/" rel="noreferrer" target="_blank" className="home__social-icon">
                             <AiOutlineLinkedin />
                         </a>
-                        <a href="https://arpit-gole.github.io/" rel="noreferrer" target="_blank" className="home__social-icon">
+                        <a href="https://github.com/Arpit-Gole" rel="noreferrer" target="_blank" className="home__social-icon">
                             <AiFillGithub />
                         </a>
                         <a href="mailto:arpitgole.gole011@gmail.com" rel="noreferrer" target="_blank" className="home__social-icon">
@@ -38,6 +38,8 @@ function Home() {
                             <Typical
                                 loop={Infinity}
                                 steps={[
+                                    'Master of Machine Learning',
+                                    1000,
                                     'Artificial Intelligence Developer',
                                     1000,
                                     'Reinforcement Learning',
@@ -46,8 +48,9 @@ function Home() {
                             />
                         </h3>
                         <p className="home__description">
-                            Experience in web ap development and producing quality work by
-                            combining my knowledge on Frontend Development.
+                            An enthusiastic computer scientist fascinated with Reinforcement Learning. 
+                            Proven understanding of Statistical models, Machine Learning Stack and 
+                            Phases of Machine Learning Workloads to deliver revolutionary products.
                         </p>
                         <a download="" href={pdf} className="button button--flex">
                             Download CV

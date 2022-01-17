@@ -64,12 +64,26 @@ function Qualifications() {
                     title="SSC/Matriculation"
                     qualifications={qualifications[0].SSC}
                 />;
-            case "INTERN":
+            case "MTS":
                 return <Modal
                     showModal={true}
                     handleClose={handleClose}
-                    title="Software Development Engineer - Intern"
-                    qualifications={qualifications[0].INTERN}
+                    title="Member of Technical Staff"
+                    qualifications={qualifications[0].MTS}
+                />;
+            case "SDE1":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Software Development Engineer 1"
+                    qualifications={qualifications[0].SDE1}
+                />;
+            case "SDE2":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Software Development Engineer 2"
+                    qualifications={qualifications[0].SDE2}
                 />;
             default:
                 return null
@@ -103,6 +117,7 @@ function Qualifications() {
                         <QualificationLeft
                             title="Master of Machine Learning"
                             subTitle="The University of Adelaide"
+                            subTitleLink="https://www.adelaide.edu.au/"
                             time="Present"
                             handleModal={handleModal}
                             type="MASTERS"
@@ -111,6 +126,7 @@ function Qualifications() {
                         <QualificationRight
                             title="B.E in Computer Science"
                             subTitle="Atria Institute of Technology"
+                            subTitleLink="https://atria.edu/home.php"
                             time="2014-2018"
                             handleModal={handleModal}
                             type="BE"
@@ -119,6 +135,7 @@ function Qualifications() {
                         <QualificationLeft
                             title="Intermediate"
                             subTitle="Kendriya Vidyalaya No.2"
+                            subTitleLink="https://no2jalahalli.kvs.ac.in/"
                             time="2013-2014"
                             handleModal={handleModal}
                             type="HSC"
@@ -127,6 +144,7 @@ function Qualifications() {
                         <QualificationRight
                             title="Matriculation"
                             subTitle="Kendriya Vidyalaya No.2"
+                            subTitleLink="https://no2jalahalli.kvs.ac.in/"
                             time="2011-2012"
                             handleModal={handleModal}
                             type="SSC"
@@ -138,12 +156,32 @@ function Qualifications() {
 
                     <div className={`qualification__content ${work ? "qualification__active" : "qualification__inactive"}`} >
                         <QualificationLeft
-                            title="Software Development Engineer - Intern"
-                            subTitle="Nineleaps Technology Solutions Pvt Ltd"
-                            time="Present"
+                            title="Software Development Engineer 2"
+                            subTitle="Nineleaps"
+                            subTitleLink="https://www.nineleaps.com/"
+                            time="10/2020 - 02/2022"
                             handleModal={handleModal}
-                            type="INTERN"
-                            place="Bengaluru"
+                            type="SDE2"
+                            place="Bengaluru, India"
+                        />
+                        <QualificationRight
+                            title="Software Development Engineer 1"
+                            subTitle="Nineleaps"
+                            subTitleLink="https://www.nineleaps.com/"
+                            time="01/2019 - 10/2020"
+                            handleModal={handleModal}
+                            type="SDE1"
+                            place="Bengaluru, India"
+                        />
+                        <QualificationLeft
+                            title="Member of Technical Staff"
+                            subTitle="Nineleaps"
+                            subTitleLink="https://www.nineleaps.com/"
+                            time="08/2018 - 12/2018"
+                            handleModal={handleModal}
+                            type="MTS"
+                            place="Bengaluru, India"
+                            last /*To Mark the last entry*/
                         />
                     </div>
                 </div>
