@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e1d9b0fd.css",
+    "main.css": "/portfolio/static/css/main.c7fe592a.css",
     "main.js": "/portfolio/static/js/main.78d260f7.js",
     "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.326b214c461bcd74d073.png",
     "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.6924c416245773818795.png",
@@ -9,11 +9,11 @@
     "static/media/Global_iq_connect_certificate.pdf": "/portfolio/static/media/Global_iq_connect_certificate.b8041131f52fbc593255.pdf",
     "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.978571787d4216a75671.pdf",
     "index.html": "/portfolio/index.html",
-    "main.e1d9b0fd.css.map": "/portfolio/static/css/main.e1d9b0fd.css.map",
+    "main.c7fe592a.css.map": "/portfolio/static/css/main.c7fe592a.css.map",
     "main.78d260f7.js.map": "/portfolio/static/js/main.78d260f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1d9b0fd.css",
+    "static/css/main.c7fe592a.css",
     "static/js/main.78d260f7.js"
   ]
 }
