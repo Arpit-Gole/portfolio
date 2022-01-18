@@ -9,7 +9,7 @@ function About() {
 
     return (
         <div className="about section" id="about">
-            <h2 className="section__title"> About Me</h2>
+            <h2 className="section__title">About Me</h2>
             <span className="section__subtitle">My introduction</span>
 
             <div className="about__container container grid">
@@ -22,25 +22,25 @@ function About() {
                         I’m fiercely competitive in my approach. Frontend developer, with intermediate knowledge and a year of
                         experience building solutions with web technologies and delivering quality products.<br /><br />
 
-                        I'm also available for hire as a Frontend developer.
+                        Require to discuss anything regarding Artificial intelligence?
                         Drop me a line about your project if you're interested in
                         working with me. <FaHandPointDown />
                     </p>
 
                     <div className="about__info">
                         <div>
-                            <span className="about__info-title">1+</span>
+                            <span className="about__info-title">3.5+</span>
                             <span className="about__info-name">Years <br /> experience</span>
                         </div>
 
                         <div>
-                            <span className="about__info-title">3+</span>
+                            <span className="about__info-title">5+</span>
                             <span className="about__info-name">Completed <br /> Projects</span>
                         </div>
                     </div>
 
                     <div className="about__buttons">
-                        <a href="mailto:akshaygole01111@gmail.com" target="_blank" rel="noreferrer" className="button button--flex">
+                        <a href="mailto:arpitgole.gole011@gmail.com" target="_blank" rel="noreferrer" className="button button--flex">
                             Contact me
                             <div className="button__icon">
                                 <SiGmail />
