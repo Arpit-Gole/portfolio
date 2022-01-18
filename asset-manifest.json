@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afcbacda.css",
-    "main.js": "/portfolio/static/js/main.38812176.js",
+    "main.js": "/portfolio/static/js/main.b13ef00c.js",
     "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.326b214c461bcd74d073.png",
     "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.6924c416245773818795.png",
     "static/media/Arpit_National_Certificate.jpg": "/portfolio/static/media/Arpit_National_Certificate.dc0db11037f9fb6a56e6.jpg",
@@ -10,10 +10,10 @@
     "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.978571787d4216a75671.pdf",
     "index.html": "/portfolio/index.html",
     "main.afcbacda.css.map": "/portfolio/static/css/main.afcbacda.css.map",
-    "main.38812176.js.map": "/portfolio/static/js/main.38812176.js.map"
+    "main.b13ef00c.js.map": "/portfolio/static/js/main.b13ef00c.js.map"
   },
   "entrypoints": [
     "static/css/main.afcbacda.css",
-    "static/js/main.38812176.js"
+    "static/js/main.b13ef00c.js"
   ]
 }
