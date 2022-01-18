@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c7fe592a.css",
-    "main.js": "/portfolio/static/js/main.78d260f7.js",
+    "main.css": "/portfolio/static/css/main.afcbacda.css",
+    "main.js": "/portfolio/static/js/main.38812176.js",
     "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.326b214c461bcd74d073.png",
     "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.6924c416245773818795.png",
     "static/media/Arpit_National_Certificate.jpg": "/portfolio/static/media/Arpit_National_Certificate.dc0db11037f9fb6a56e6.jpg",
@@ -9,11 +9,11 @@
     "static/media/Global_iq_connect_certificate.pdf": "/portfolio/static/media/Global_iq_connect_certificate.b8041131f52fbc593255.pdf",
     "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.978571787d4216a75671.pdf",
     "index.html": "/portfolio/index.html",
-    "main.c7fe592a.css.map": "/portfolio/static/css/main.c7fe592a.css.map",
-    "main.78d260f7.js.map": "/portfolio/static/js/main.78d260f7.js.map"
+    "main.afcbacda.css.map": "/portfolio/static/css/main.afcbacda.css.map",
+    "main.38812176.js.map": "/portfolio/static/js/main.38812176.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7fe592a.css",
-    "static/js/main.78d260f7.js"
+    "static/css/main.afcbacda.css",
+    "static/js/main.38812176.js"
   ]
 }
