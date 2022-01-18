@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 13rem 1rem 1rem 1rem; /*To make popup with big content fit in the screen with scroll*/
+  padding: 0 1rem; /*To make popup with big content fit in the screen with scroll*/
   z-index: $Z-Modal;
   opacity: 0;
   visibility: hidden;

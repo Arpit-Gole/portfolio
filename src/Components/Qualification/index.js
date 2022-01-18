@@ -85,6 +85,20 @@ function Qualifications() {
                     title="Software Development Engineer 2"
                     qualifications={qualifications[0].SDE2}
                 />;
+            case "SRE1":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Graduate Student Researcher"
+                    qualifications={qualifications[0].SRE1}
+                />;
+            case "SRE2":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Summer Researcher"
+                    qualifications={qualifications[0].SRE2}
+                />;
             default:
                 return null
         }
@@ -92,7 +106,9 @@ function Qualifications() {
     return (
         <div className="qualification section" id="qualification" >
             <h2 className="section__title"> Qualification</h2>
-            <span className="section__subtitle">My Personal Journey</span>
+            <span className="section__subtitle">
+            The pinnacles that I achieved in my academics and work. A deeper dive into everything.
+            </span>
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
@@ -118,7 +134,7 @@ function Qualifications() {
                             title="Master of Machine Learning"
                             subTitle="The University of Adelaide"
                             subTitleLink="https://www.adelaide.edu.au/"
-                            time="Present"
+                            time="2021 - Present"
                             handleModal={handleModal}
                             type="MASTERS"
                             place="Adelaide, Australia"
@@ -127,7 +143,7 @@ function Qualifications() {
                             title="B.E in Computer Science"
                             subTitle="Atria Institute of Technology"
                             subTitleLink="https://atria.edu/home.php"
-                            time="2014-2018"
+                            time="2014 - 2018"
                             handleModal={handleModal}
                             type="BE"
                             place="Bengaluru, India"
@@ -136,7 +152,7 @@ function Qualifications() {
                             title="Intermediate"
                             subTitle="Kendriya Vidyalaya No.2"
                             subTitleLink="https://no2jalahalli.kvs.ac.in/"
-                            time="2013-2014"
+                            time="2013 - 2014"
                             handleModal={handleModal}
                             type="HSC"
                             place="Bengaluru, India"
@@ -145,7 +161,7 @@ function Qualifications() {
                             title="Matriculation"
                             subTitle="Kendriya Vidyalaya No.2"
                             subTitleLink="https://no2jalahalli.kvs.ac.in/"
-                            time="2011-2012"
+                            time="2011 - 2012"
                             handleModal={handleModal}
                             type="SSC"
                             place="Bengaluru, India"
@@ -155,6 +171,24 @@ function Qualifications() {
 
 
                     <div className={`qualification__content ${work ? "qualification__active" : "qualification__inactive"}`} >
+                        <QualificationLeft
+                            title="Summer Researcher"
+                            subTitle="The University of Adelaide"
+                            subTitleLink="https://www.adelaide.edu.au/"
+                            time="11/2021 - Present"
+                            handleModal={handleModal}
+                            type="SRE2"
+                            place="Adelaide, Australia"
+                        />
+                        <QualificationRight
+                            title="Graduate Student Researcher"
+                            subTitle="The University of Adelaide"
+                            subTitleLink="https://www.adelaide.edu.au/"
+                            time="05/2021 - 08/2021"
+                            handleModal={handleModal}
+                            type="SRE1"
+                            place="Adelaide, Australia"
+                        />
                         <QualificationLeft
                             title="Software Development Engineer 2"
                             subTitle="Nineleaps"

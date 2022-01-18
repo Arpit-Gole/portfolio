@@ -84,8 +84,17 @@ TODO: Make this as the html rendered text to use links instead of plain text.
 */
 export const qualifications = [
     {
-        MASTERS: ['I develop the user interface in College.',
-            'I develop the user interface in College.'],
+        MASTERS: ['I took part in many University run career/personality development programs like Global IQ Connect, '+
+        'Talking to Aussie and many more.',
+        
+        'I got elected as the postgraduate representative for my faculty, i.e. ECMS.',
+
+        'I was a member of the ECMS faculty board meeting to oversee the governance of the University in the '+
+        'unprecedented pandemic times from 2021-2022.',
+
+        "I'm a part of the Student Engagement Committee to bring a personal perspective and raise concerns "+
+        "faced by the postgrad student cohort with an endeavour to find a solution."
+                ],
 
         BE: ['Graduated summa cum laude with minor in Computer Graphics and Visualization.',
             "Organised annual college fest - 'Saptrang'.",
@@ -138,5 +147,17 @@ export const qualifications = [
         'supportable solutions that work well between a range of complex systems i.e. LOGI, Console, etc.',
             ],
 
+        SRE1: ['I assisted Professor Andrey Kan in developing a recommender system using '+
+        'Knowledge Graph (KG), particularly developing a method to use all available '+
+        'information (user-item interaction, User and item attributes and KG), dealing with the cold start problem.',
+
+        'Constructed a recommender system with query-based capabilities having linear time and space complexity.'
+            ],
+
+        SRE2: ["I'm assisting Professor Hung Nguyen in analysing the security loopholes in the "+
+        "Active Directory (AD) environments which evolve over time. These loopholes pose a "+
+        "security threat to organisational data. Developing ways to identify security loopholes "+
+        "in AD architecture and rectify them without the need for manual processes."
+            ],
     }
 ]
