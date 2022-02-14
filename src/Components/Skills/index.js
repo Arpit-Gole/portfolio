@@ -54,7 +54,7 @@ function Skills() {
                         <SkillsBar name="Reinforcement Learning" number="4" classPercentage="skills__eighty" />
                         <SkillsBar name="Deep Learning (Computer Vision & Recommendation Systems)" number="4" classPercentage="skills__eighty" />
                         <SkillsBar name="Machine Learning " number="4.5" classPercentage="skills__ninety" />
-                        <SkillsBar name="Statistical Proficiency " number="3.5" classPercentage="skills__seventy" />
+                        <SkillsBar name="Statistical Proficiency " number="4" classPercentage="skills__eighty" />
                         <SkillsBar name="All famous packages (TensorFlow, PyTorch, Scikit-Learn, Matplotlib, etc) " number="4" classPercentage="skills__eighty" />
                     </div>
                 </div>
