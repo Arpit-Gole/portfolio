@@ -175,7 +175,7 @@ function Qualifications() {
                             title="Summer Researcher"
                             subTitle="The University of Adelaide"
                             subTitleLink="https://www.adelaide.edu.au/"
-                            time="11/2021 - Present"
+                            time="11/2021 - 02/2022"
                             handleModal={handleModal}
                             type="SRE2"
                             place="Adelaide, Australia"

@@ -1,3 +1,5 @@
+1. To compile and start project in local - yarn start
+
 1. git status
 2. git add . (If adding new file)
 3. git commit -a -m ""
