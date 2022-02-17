@@ -99,6 +99,13 @@ function Qualifications() {
                     title="Summer Researcher"
                     qualifications={qualifications[0].SRE2}
                 />;
+            case "ASM":
+                return <Modal
+                    showModal={true}
+                    handleClose={handleClose}
+                    title="Academic Staff Member"
+                    qualifications={qualifications[0].ASM}
+                />;
             default:
                 return null
         }
@@ -172,6 +179,15 @@ function Qualifications() {
 
                     <div className={`qualification__content ${work ? "qualification__active" : "qualification__inactive"}`} >
                         <QualificationLeft
+                            title="Academic Staff Member"
+                            subTitle="The University of Adelaide"
+                            subTitleLink="https://www.adelaide.edu.au/"
+                            time="02/2022 - Present"
+                            handleModal={handleModal}
+                            type="ASM"
+                            place="Adelaide, Australia"
+                        />
+                        <QualificationRight
                             title="Summer Researcher"
                             subTitle="The University of Adelaide"
                             subTitleLink="https://www.adelaide.edu.au/"
@@ -180,7 +196,7 @@ function Qualifications() {
                             type="SRE2"
                             place="Adelaide, Australia"
                         />
-                        <QualificationRight
+                        <QualificationLeft
                             title="Graduate Student Researcher"
                             subTitle="The University of Adelaide"
                             subTitleLink="https://www.adelaide.edu.au/"
@@ -189,7 +205,7 @@ function Qualifications() {
                             type="SRE1"
                             place="Adelaide, Australia"
                         />
-                        <QualificationLeft
+                        <QualificationRight
                             title="Software Development Engineer 2"
                             subTitle="Nineleaps"
                             subTitleLink="https://www.nineleaps.com/"
@@ -198,7 +214,7 @@ function Qualifications() {
                             type="SDE2"
                             place="Bengaluru, India"
                         />
-                        <QualificationRight
+                        <QualificationLeft
                             title="Software Development Engineer 1"
                             subTitle="Nineleaps"
                             subTitleLink="https://www.nineleaps.com/"
@@ -207,7 +223,7 @@ function Qualifications() {
                             type="SDE1"
                             place="Bengaluru, India"
                         />
-                        <QualificationLeft
+                        <QualificationRight
                             title="Member of Technical Staff"
                             subTitle="Nineleaps"
                             subTitleLink="https://www.nineleaps.com/"

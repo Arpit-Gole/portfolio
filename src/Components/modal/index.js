@@ -27,7 +27,9 @@ function Modal(props) {
                                     <div className="modal__icon" >
                                         <FaRegHandPointRight />
                                     </div>
-                                    <p>{qualification}</p>
+                                    {/* <p>{qualification}</p> */}
+                                    {/* Rendering the text as HTML */}
+                                    <span dangerouslySetInnerHTML={{ __html: qualification }}/>
                                 </li>
                             })
                         ) :

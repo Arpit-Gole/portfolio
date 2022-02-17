@@ -1,4 +1,6 @@
 import { GiAchievement } from 'react-icons/gi'
+import report from '../../pdf/Complexity_of_Active_Directory_Attack_Graphs.pdf'
+import "./reUsable.scss";
 
 export const achivements = [
     {
@@ -78,9 +80,15 @@ export const portfolio = [
     }
 ]
 
+var a = "https://arpit-gole.github.io/portfolio/"
+
 /*
 Activities to be listed as a part of Qualifications in a form of Pop-up 
-TODO: Make this as the html rendered text to use links instead of plain text.
+TODO: Make the link colour match with the site colour.
+
+Usage to make the inline text.
+'<a href="https://developer.mozilla.org/" target="_blank" rel="noreferrer" style={{color: "green"}}>sdfgds</a> is my love',
+`<a href=${pdf} target="_blank" rel="noreferrer">ddd</a> is my love`  
 */
 export const qualifications = [
     {
@@ -107,7 +115,7 @@ export const qualifications = [
             ],
 
         SSC: ['Participated in various science olympiads.',
-            'Represented school at various sports meets.',               
+            'Represented school at various sports meets.'            
             ],
 
         MTS: ['Performing SQL DB operations (CRUD, Stored Procedure & Triggers).',
@@ -139,7 +147,7 @@ export const qualifications = [
         ' Wrote 10+ modules, including critical payment gateways and optimised the '+
         'order processing workflow throughout the ecosystem.',
 
-        'Mentoring juniors to build robust applications, set higher goals, '+
+        'Mentored juniors to build robust applications, set higher goals, '+
         'communicate constructive feedback at regular intervals. ',
 
         'Gathered business and functional requirements from external and/or internal customers, '+
@@ -154,10 +162,27 @@ export const qualifications = [
         'Constructed a recommender system with query-based capabilities having linear time and space complexity.'
             ],
 
-        SRE2: ["I'm assisting Professor Hung Nguyen in analysing the security loopholes in the "+
-        "Active Directory (AD) environments which evolve over time. These loopholes pose a "+
-        "security threat to organisational data. Developing ways to identify security loopholes "+
-        "in AD architecture and rectify them without the need for manual processes."
+        SRE2: ["Completed research under Professor Hung Nguyen by analysing the complexity of the Active Directory (AD) "+
+        "graph as it evolves over time. As the complexity stacks up the task of sniffing attack paths become challenging."+
+        "These attack paths pose a security threat to organisational data. Developing ways to identify security loopholes "+
+        "in AD architecture and rectify them without the need for manual processes.",
+
+        `Full report can be viewed <a href=${report} target="_blank" rel="noreferrer">here</a>.`
             ],
+        
+        ASM: ["•	I'm coordinating with Professor Mark Jenkinson to deliver the COMP SCI 3317 - Using Machine Learning "+
+        "Tools course in semester 1, 2022. To perform a wide array of tasks like setting up quizzes, marking and more.",
+
+        `The complete Course Outline for COMP SCI 3317 - Using Machine Learning Tools detailing the academic activities is `+
+        `listed <a href="https://www.adelaide.edu.au/course-outlines/110303/1/sem-1/" target="_blank" rel="noreferrer">here</a>.`,
+        
+        "Operating Gradescope for the COMP SCI 3007 - Artificial Intelligence course in semester 1, 2022, under the "+
+        "guidance of Professor Tat-Jun Chin. As a result, drastically reduced the time consumption of resource(s) required "+
+        "for marking assignments of 100+ students.",
+
+        `The complete Course Outline for COMP SCI 3007 - Artificial Intelligence detailing the academic activities is `+
+        `listed <a href="https://www.adelaide.edu.au/course-outlines/006378/1/sem-1/" target="_blank" rel="noreferrer">here</a>.`
+
+            ]
     }
 ]
