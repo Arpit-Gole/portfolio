@@ -6,6 +6,7 @@ import Card from '../Cards/index'
 import national_handball from '../../Image/Arpit_National_Certificate.jpg'
 import ncc from '../../Image/Arpit_NCC_C-Certificate_01.jpg'
 import global_iq from '../../pdf/Global_iq_connect_certificate.pdf'
+import trivia from '../../Image/trivia.png'
 
 function Achievement() {
     // const [view, setView] = useState(false)
@@ -31,6 +32,10 @@ function Achievement() {
                 <Card type={<GiMedal />} title="National Cadet Corps - 'C' Certificate" link={ncc} 
                 about="An active member of National Cadet Corps - the youth wing of the Indian Armed Forces. 
                 Passed Certificate 'C' - with the best grade 'A'." />
+
+                <Card type={<GiMedal />} title="Trivia Mastery" link={trivia} 
+                about="Won the Trivia competition at Science Pathways 2021. Donated wins (complete $100) to 
+                the Indigenous Literacy Foundation in Australia." />
                 
                                
                 {/* <Card type={<GiAchievement />} />
