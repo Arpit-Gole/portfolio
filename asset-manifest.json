@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.afcbacda.css",
-    "main.js": "/portfolio/static/js/main.b5a26f3d.js",
+    "main.js": "/portfolio/static/js/main.9a8a457d.js",
     "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.326b214c461bcd74d073.png",
     "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.6924c416245773818795.png",
     "static/media/Arpit_National_Certificate.jpg": "/portfolio/static/media/Arpit_National_Certificate.dc0db11037f9fb6a56e6.jpg",
     "static/media/Arpit_NCC_C-Certificate_01.jpg": "/portfolio/static/media/Arpit_NCC_C-Certificate_01.18ae7f07310e3919374b.jpg",
+    "static/media/trivia.png": "/portfolio/static/media/trivia.fbe01bd4057ffadc3195.png",
     "static/media/Global_iq_connect_certificate.pdf": "/portfolio/static/media/Global_iq_connect_certificate.b8041131f52fbc593255.pdf",
     "static/media/vishwa_hindu_parishad.pdf": "/portfolio/static/media/vishwa_hindu_parishad.ec73ce328788a835351a.pdf",
     "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.6456770197d2918ec87c.pdf",
@@ -14,10 +15,10 @@
     "static/media/ECMS_Faculty_Board_GoleA_20220125.pdf": "/portfolio/static/media/ECMS_Faculty_Board_GoleA_20220125.f2eaa055b19fc189c766.pdf",
     "index.html": "/portfolio/index.html",
     "main.afcbacda.css.map": "/portfolio/static/css/main.afcbacda.css.map",
-    "main.b5a26f3d.js.map": "/portfolio/static/js/main.b5a26f3d.js.map"
+    "main.9a8a457d.js.map": "/portfolio/static/js/main.9a8a457d.js.map"
   },
   "entrypoints": [
     "static/css/main.afcbacda.css",
-    "static/js/main.b5a26f3d.js"
+    "static/js/main.9a8a457d.js"
   ]
 }
