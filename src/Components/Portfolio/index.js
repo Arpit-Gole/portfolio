@@ -8,6 +8,7 @@ import ecms from "../../pdf/ECMS_Faculty_Board_GoleA_20220125.pdf"
 import vhp from "../../pdf/vishwa_hindu_parishad.pdf"
 import ipss from "../../pdf/IPSS_Mentor_Certificate.pdf"
 import ncc from "../../pdf/ncc_volunteer.pdf"
+// TODO: take the imports from the public folder
 
 function Portfolio() {
     // const [view, setView] = useState(false)
