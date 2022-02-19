@@ -167,22 +167,22 @@ export const qualifications = [
         "These attack paths pose a security threat to organisational data. Developing ways to identify security loopholes "+
         "in AD architecture and rectify them without the need for manual processes.",
 
-        `Full report can be viewed <a href=${report} target="_blank" rel="noreferrer">here</a>.`
+        `Full report can be viewed <a href=${report} target="_blank" rel="noreferrer">click here</a>.`
             ],
         
         ASM: ["•	I'm coordinating with Professor Mark Jenkinson to deliver the COMP SCI 3317 - Using Machine Learning "+
         "Tools course in semester 1, 2022. To perform a wide array of tasks like setting up quizzes, marking and more.",
 
         `The complete Course Outline for COMP SCI 3317 - Using Machine Learning Tools detailing the academic activities is `+
-        `listed <a href="https://www.adelaide.edu.au/course-outlines/110303/1/sem-1/" target="_blank" rel="noreferrer">here</a>.`,
+        `listed on <a href="https://www.adelaide.edu.au/course-outlines/110303/1/sem-1/" target="_blank" rel="noreferrer">COMP SCI 3317</a>.`,
         
         "Operating Gradescope for the COMP SCI 3007 - Artificial Intelligence course in semester 1, 2022, under the "+
         "guidance of Professor Tat-Jun Chin. As a result, drastically reduced the time consumption of resource(s) required "+
         "for marking assignments of 100+ students.",
 
-        `The complete Course Outline for COMP SCI 3007 - Artificial Intelligence detailing the academic activities is `+
-        `listed <a href="https://www.adelaide.edu.au/course-outlines/006378/1/sem-1/" target="_blank" rel="noreferrer">here</a>.`
-
+        `The complete Course Outline for COMP SCI 3007/7059 - Artificial Intelligence detailing the academic activities are `+
+        `listed on <a href="https://www.adelaide.edu.au/course-outlines/006378/1/sem-1/" target="_blank" rel="noreferrer">COMP SCI 3007</a> `+
+        `and <a href="https://www.adelaide.edu.au/course-outlines/009516/1/sem-1/" target="_blank" rel="noreferrer">COMP SCI 7059</a>.`
             ]
     }
 ]

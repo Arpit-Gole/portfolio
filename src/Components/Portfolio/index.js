@@ -7,6 +7,7 @@ import sec from "../../pdf/Arpit_Gole_Student_engagement_committee.pdf"
 import ecms from "../../pdf/ECMS_Faculty_Board_GoleA_20220125.pdf"
 import vhp from "../../pdf/vishwa_hindu_parishad.pdf"
 import ipss from "../../pdf/IPSS_Mentor_Certificate.pdf"
+import ncc from "../../pdf/ncc_volunteer.pdf"
 
 function Portfolio() {
     // const [view, setView] = useState(false)
@@ -27,6 +28,11 @@ function Portfolio() {
                 link="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6673911170958790656?compact=1"/>
 
                 <Card type={<GiWorld />} 
+                title="Membersuite" 
+                about="Engineered and spearheaded a multi-tenant cloud-based SaaS application designed to automate back-end processes." 
+                link="https://www.membersuite.com/" />
+
+                <Card type={<GiWorld />} 
                 title="Student Engagement Committee" 
                 about="Expressed the student cohort perspective to the administrative staff of the University."
                 link={sec} />
@@ -40,17 +46,16 @@ function Portfolio() {
                 title="Social Media Campaign Analyst" 
                 about="Diversified and conveyed strategies for social media campaigns." 
                 link={vhp} />
-
-                <Card type={<GiWorld />} 
-                title="Membersuite" 
-                about="Engineered and spearheaded a multi-tenant cloud-based SaaS application designed to automate back-end processes." 
-                link="https://www.membersuite.com/" />
-
                 
                 <Card type={<GiWorld />} 
                 title="International Peer Study Support" 
                 about="Provided support and guidance to the commencing students on any hurdles which they are facing." 
                 link={ipss} />
+
+                <Card type={<GiWorld />} 
+                title="NCC Volunteer for COVID-19" 
+                about="Helping govt. authorities to reach everyone. Distribution of food, medicine and other essential commodities. " 
+                link={ncc} />
 
 
                 {/* {
