@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.399d1359.css",
-    "main.js": "/portfolio/static/js/main.a86e7d9f.js",
+    "main.js": "/portfolio/static/js/main.0dc6a1de.js",
     "static/media/arpit gole.png": "/portfolio/static/media/arpit gole.326b214c461bcd74d073.png",
     "static/media/Arpit_Gole.png": "/portfolio/static/media/Arpit_Gole.6924c416245773818795.png",
     "static/media/Arpit_National_Certificate.jpg": "/portfolio/static/media/Arpit_National_Certificate.dc0db11037f9fb6a56e6.jpg",
@@ -10,17 +10,17 @@
     "static/media/Complexity_of_Active_Directory_Attack_Graphs.pdf": "/portfolio/static/media/Complexity_of_Active_Directory_Attack_Graphs.d92ac93726a8097a7ace.pdf",
     "static/media/ncc_volunteer.pdf": "/portfolio/static/media/ncc_volunteer.44d4f55d22bb73b3dec1.pdf",
     "static/media/Global_iq_connect_certificate.pdf": "/portfolio/static/media/Global_iq_connect_certificate.b8041131f52fbc593255.pdf",
+    "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.705ab0d1e8faf7d99d71.pdf",
     "static/media/vishwa_hindu_parishad.pdf": "/portfolio/static/media/vishwa_hindu_parishad.ec73ce328788a835351a.pdf",
-    "static/media/Arpit Gole Resume.pdf": "/portfolio/static/media/Arpit Gole Resume.e5ac5898353d0562ee07.pdf",
     "static/media/Arpit_Gole_Student_engagement_committee.pdf": "/portfolio/static/media/Arpit_Gole_Student_engagement_committee.2aaa523f22517f88a4dc.pdf",
     "static/media/IPSS_Mentor_Certificate.pdf": "/portfolio/static/media/IPSS_Mentor_Certificate.dbb15c2e1346178dd784.pdf",
     "static/media/ECMS_Faculty_Board_GoleA_20220125.pdf": "/portfolio/static/media/ECMS_Faculty_Board_GoleA_20220125.f2eaa055b19fc189c766.pdf",
     "index.html": "/portfolio/index.html",
     "main.399d1359.css.map": "/portfolio/static/css/main.399d1359.css.map",
-    "main.a86e7d9f.js.map": "/portfolio/static/js/main.a86e7d9f.js.map"
+    "main.0dc6a1de.js.map": "/portfolio/static/js/main.0dc6a1de.js.map"
   },
   "entrypoints": [
     "static/css/main.399d1359.css",
-    "static/js/main.a86e7d9f.js"
+    "static/js/main.0dc6a1de.js"
   ]
 }
