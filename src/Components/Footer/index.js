@@ -15,7 +15,7 @@ function Footer() {
 
                     <div className="footer__content">
                         <h1 className="footer__title">Contact Me</h1>
-                        <span className="footer__subtitle">(+61) ********* <span role="img" aria-label="au_flag">🇦🇺</span><br /></span>
+                        <span className="footer__subtitle">(+61) 414 839 074 <span role="img" aria-label="au_flag">🇦🇺</span><br /></span>
                         <span className="footer__subtitle">arpitgole.gole011@gmail.com</span>
                     </div>
 

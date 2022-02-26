@@ -170,15 +170,15 @@ export const qualifications = [
         `Full report can be viewed <a href=${report} target="_blank" rel="noreferrer">click here</a>.`
             ],
         
-        ASM: ["•	I'm coordinating with Professor Mark Jenkinson to deliver the COMP SCI 3317 - Using Machine Learning "+
-        "Tools course in semester 1, 2022. To perform a wide array of tasks like setting up quizzes, marking and more.",
+        ASM: ["I'm coordinating with Professor Mark Jenkinson to deliver the COMP SCI 3317 - Using Machine Learning Tools course "+
+        "in semester 1, 2022. To perform a wide array of tasks like tutoring, taking workshop sessions, setting up quizzes and marking.",
 
         `The complete Course Outline for COMP SCI 3317 - Using Machine Learning Tools detailing the academic activities is `+
         `listed on <a href="https://www.adelaide.edu.au/course-outlines/110303/1/sem-1/" target="_blank" rel="noreferrer">COMP SCI 3317</a>.`,
         
-        "Operating Gradescope for the COMP SCI 3007 - Artificial Intelligence course in semester 1, 2022, under the "+
-        "guidance of Professor Tat-Jun Chin. As a result, drastically reduced the time consumption of resource(s) required "+
-        "for marking assignments of 100+ students.",
+        "Assisting Professor Tat-Jun Chin as a Teaching Assistant for the COMP SCI 3007/7059 - Artificial Intelligence course in "+
+        "semester 1, 2022. Operating Gradescope to drastically reduce the time consumption of resource(s) required for automatically "+
+        "marking assignments of 315+ students.",
 
         `The complete Course Outline for COMP SCI 3007/7059 - Artificial Intelligence detailing the academic activities are `+
         `listed on <a href="https://www.adelaide.edu.au/course-outlines/006378/1/sem-1/" target="_blank" rel="noreferrer">COMP SCI 3007</a> `+
